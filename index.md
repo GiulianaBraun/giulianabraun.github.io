@@ -11,5 +11,7 @@ Oi, eu sou a Giuliana 🚀.
 
 ---
 
-
-
+Um teste com equação:
+$$
+    \Delta S = nR \ln\left( \dfrac{T_2}{T_1} \right)
+$$

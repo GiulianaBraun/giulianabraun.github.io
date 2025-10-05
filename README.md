@@ -8,5 +8,6 @@ pandoc index.md \
     --metadata=lang:pt-BR \
     --css="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css" \
     --css=styles.css \
+    --katex \
     -o index.html
 ```
