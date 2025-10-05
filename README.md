@@ -5,9 +5,8 @@ Para gerar o `index.html`, use o comando
 ```bash
 pandoc index.md \
     --standalone \
-    --metadata=title:"Giuliana Braun" \
     --metadata=lang:pt-BR \
     --css="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css" \
-    --css=custom.css \
+    --css=styles.css \
     -o index.html
 ```
