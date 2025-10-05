@@ -2,6 +2,12 @@
 
 Para gerar o `index.html`, use o comando
 
-```
-pandoc -s index.md -o index.html --css https://stackedit.io/style.css
+```bash
+pandoc index.md \
+    --standalone \
+    --metadata=title:"Giuliana Braun" \
+    --metadata=lang:pt-BR \
+    --css="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css" \
+    --css=custom.css \
+    -o index.html
 ```
