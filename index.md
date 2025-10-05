@@ -4,6 +4,8 @@ Esse é meu site.
 
 Oi, eu sou a Giuliana 🚀.
 
+Teste de automação
+
 ## Meus projetos
 
 1. Projeto de **otimização** de processos com pyomo.
