@@ -6,8 +6,8 @@ Para gerar o `index.html`, use o comando
 pandoc index.md \
     --standalone \
     --metadata=lang:pt-BR \
+    --katex \
     --css="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css" \
     --css=styles.css \
-    --katex \
     -o index.html
 ```
